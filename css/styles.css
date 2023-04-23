@@ -108,5 +108,20 @@ p {
 }
     /* More global CSS will come */
 
+/*
 
+===============
 
+Header
+
+===============
+
+*/
+.header{
+    min-height: 100vh ;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
+    
+}
+.banner{
+       text-align: center   ;
+}
