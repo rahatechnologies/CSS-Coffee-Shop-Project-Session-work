@@ -108,6 +108,24 @@ p {
 }
     /* More global CSS will come */
 
+    .btn {
+        text-transform: uppercase;
+        background-color: var(--clr-primary);
+        color: var(--clr-white);
+        padding: 0.75rem 1rem;
+        letter-spacing: var(--spacing);
+        display: inline-block;
+        font-weight: 700;
+        transition: var(--transition);
+        font-size: 1rem;
+        /* cursor: pointer; */
+        border: none;
+    }
+    .btn:hover{
+        color: var(--clr-primary);
+        background-color: var(--clr-primary-light);
+    }
+
 /*
 
 ===============
@@ -122,6 +140,7 @@ Header
     background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
     position: relative;
     /* animation */
+    overflow-x: hidden;
 }
 .banner{
        text-align: center   ;
@@ -139,5 +158,17 @@ Header
     color: var(--clr-white);
     text-transform: uppercase;
     margin-top: 1.25rem;
-    
+    margin-bottom: 2rem;
+    /* animation */
  }
+.banner-btn{
+    outline: 0.125rem solid var(--clr-primary);
+    outline-offset: 0.25rem;
+    font-size: 1.25rem;
+    padding: 1rem 1.75rem;
+    /* animation */
+}
+.content-divider {
+    height: 0.5rem;
+    background: linear-gradient(to left, var(--clr-primary),#e9b949, var(--clr-primary));
+}
