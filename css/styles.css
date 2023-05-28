@@ -338,3 +338,55 @@ Header
     }
     
 }
+/* services */
+.services_title{
+    margin-top: 4rem;
+    margin-bottom: -4rem;
+    text-align: center;
+}
+.service_card{
+    margin: 2rem;
+    background: var(--clr-grey-10);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.service_card:hover{
+    transform: scale(1.02);
+}
+.service_img{
+    height: 20rem;
+    border-top-right-radius: var(--radius);
+    border-top-left-radius: var(--radius);
+    object-fit: cover;
+}
+.service_info{
+    text-align: center;
+    padding: 2rem 1rem 2rem 1rem ;
+}
+.service_info p{
+    color: var(--clr-grey-5);
+    margin: 0 auto;
+    max-width: 20rem;
+}
+.service_img_container{
+    position: relative;
+}
+.service_icon{
+    font-size: 2rem;
+    color: var(--clr-primary);
+    background: var(--clr-primary-light);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    padding: 0.3rem 0.5rem;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    border: 0.3rem solid var(--clr-grey-10);
+}
+.service_btn{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    border-radius: var(--radius);
+    margin-top: 1.5rem;
+    padding: 0.3rem 0.6rem;
+    font-weight: 200;
+}
