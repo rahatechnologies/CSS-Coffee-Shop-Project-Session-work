@@ -345,7 +345,7 @@ Header
     text-align: center;
 }
 .service_card{
-    margin: 2rem;
+    margin: 2rem 0;
     background: var(--clr-grey-10);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -389,4 +389,18 @@ Header
     margin-top: 1.5rem;
     padding: 0.3rem 0.6rem;
     font-weight: 200;
+}
+@media screen and (min-width: 768px){
+.service_card {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+}
+@media screen and (min-width: 992px) {
+    .service_card {
+        width: 30%;
+        margin-right: 3%;
+    }
+    
 }
